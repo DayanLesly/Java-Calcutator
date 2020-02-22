@@ -1,5 +1,5 @@
-         action = "addition";
-				//value1.setText(value2.getText());
+         			action = "addition";
+			
 				first_value = Integer.parseInt(value2.getText());
 				value2.setText(null);
 				
@@ -23,6 +23,6 @@
 					value2.setText(String.valueOf(sub));
 					
 	------------------------------------------------------------------------------				
-					public int  first_value;
+	public int  first_value;
 	public String  action;
 	public int  two;
