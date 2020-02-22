@@ -1,9 +1,9 @@
-         			action = "addition";
-			
+------------------// code for add sub div mul buttons  ----------------------------------
+				action = "addition";
 				first_value = Integer.parseInt(value2.getText());
 				value2.setText(null);
 				
-	----------------------------------------------------------------------------------------			
+-----------------// code for equal button ----------------------------------------------			
 				two = Integer.parseInt(value2.getText());
 				
 				if(action == "subtraction") {
@@ -22,7 +22,7 @@
 					int sub = first_value * two;
 					value2.setText(String.valueOf(sub));
 					
-	------------------------------------------------------------------------------				
+------------------// code for public eriabels ----------------------------------------			
 	public int  first_value;
 	public String  action;
 	public int  two;
